@@ -1,0 +1,108 @@
+*, *::after, *::before { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lucida Sans", Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #f1f1f1;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    font-weight: 400;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+table {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+strong {
+    font-weight: 700;
+}
+
+header,
+footer {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 50rem;
+    display: flex;
+}
+
+/* HEADER START */
+
+.hero-image {
+    background-image: url("../images/header.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+    height: 15rem;
+}
+
+.hero-text {
+    align-self: center;
+    padding-left: 0.5em;
+}
+
+/* HEADER END */
+
+/* MAIN START */
+
+.containter-main {
+    flex-direction: column;
+    padding: 2em 0;
+}
+
+.main-product + .main-product {
+    padding-top: 1.5em;
+}
+
+.main-product-img-container {
+    width: 30%;
+}
+
+.main-product-img {
+    border-radius: 1em;
+    border: 2px solid #000000;
+}
+
+.main-product-content {
+    padding-left: 5%;
+}
+
+/* MAIN END */
+
+/* FOOTER START */
+
+footer {
+    position: sticky;
+    bottom: 0%;
+    width: 100%;
+    padding: 0.5em 0;
+    text-align: center;
+}
+
+.footer-rrss {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* FOOTER END */
